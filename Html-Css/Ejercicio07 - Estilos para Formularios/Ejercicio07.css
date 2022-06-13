@@ -1,0 +1,183 @@
+/* Font titulo */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Koulen&family=Raleway:wght@600&display=swap');
+
+/* Font Sign in */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+/* Font labels */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #161717 ;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    width: 450px;
+} 
+
+.titulo {
+    font-family: 'Cedarville Cursive', cursive;
+    color: white;
+    font-size: 25pt;
+}
+
+.signin {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18pt;
+}
+/* Boton google */
+.google-button {
+    background-color: #5396EE;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 10px 3px 3px;
+    display: flex;
+    width: 250px;
+    cursor: pointer;
+}
+
+
+.google-button picture {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-button picture img {
+    width: 75%;
+}
+
+.google-button span {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    align-self: center;
+    padding: 3px 15px 3px 30px;
+}
+
+.google-button:hover {
+    background-color: #3d6ead;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+/* Boton twitter */
+.twitter-button {
+    display: flex;
+    width: 41px;
+    height: 41px;
+    border: none;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(243, 243, 243);
+}
+
+.twitter-button picture img {
+    width: 75%;
+}
+
+.twitter-button:hover {
+    opacity: 0.75;
+}
+
+/* Separador */
+.separator {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.separator span {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+/* Labels */
+.labels {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.labels input {
+    background-color: #212121;
+    color: #ccc;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    width: 100%;
+    margin-top: 5px;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+}
+
+.labels input:hover {
+    background-color: #454045;
+    border: #EF79A7;
+    box-shadow: 0 0 4px #ef79a68a;
+}
+
+.labels input:focus {
+    background-color: #454045;
+    border: #EF79A7;
+    box-shadow: 0 0 4px #EF79A7;
+    color: white;
+}
+
+.inputs-section {
+    display: flex;
+    width: 100%;
+    gap: 35px;
+}
+
+.labels label input {
+    margin-bottom: 20px;
+}
+
+/* Acepto */
+.check {
+    display: flex;
+    gap: 10px;
+    color: rgb(160, 153, 153);
+    font-size: 11pt;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Boton crear */
+.submit {
+    background-color: #EA4C89;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 15pt;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: #EF79A7;
+}
+
+
+
