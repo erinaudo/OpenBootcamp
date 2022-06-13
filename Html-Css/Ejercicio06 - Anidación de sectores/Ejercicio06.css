@@ -1,0 +1,21 @@
+.boton p::before {
+content: "Pasa por encima";
+}
+
+.boton {
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.boton:hover {
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+
+.boton p::before {
+    content: "Hecho!";
+    }
+
