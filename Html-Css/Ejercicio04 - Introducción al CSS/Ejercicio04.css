@@ -1,0 +1,21 @@
+body {
+    background-image: url(super.webp);
+    background-size: 1040px 793px;
+}
+
+.encabezado {
+   font-family: 'Raleway', sans-serif;
+   text-transform: uppercase;
+   text-align-last: center;
+   background-color: #E4FF1A;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+.lista {
+    background-color: rgba(110, 235, 131, 0.8) ;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    margin: 20px;
+}
