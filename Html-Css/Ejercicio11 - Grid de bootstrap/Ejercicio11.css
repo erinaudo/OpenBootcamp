@@ -1,0 +1,28 @@
+.fila1 {
+    border: aqua solid 1px;
+    margin: 1px;
+}
+
+.fila2 {
+    background-color: green;
+}
+
+.fila3 {
+    background-color: red;
+}
+
+.fila4 {
+    background-color: purple;
+}
+
+.fila5 {
+    background-color: brown;
+}
+
+.fila6 {
+    background-color: grey;
+}
+
+.row {
+    text-align: center;
+}
